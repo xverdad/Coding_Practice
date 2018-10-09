@@ -8,6 +8,8 @@
 /  What if you cannot use additional data structures?
 */
 
+import java.util.HashMap;
+
 public class UniqueCharacters {
     public static void main(String[] args) {
         System.out.println(isUniqueWithDS("Hello") + "");
@@ -22,7 +24,7 @@ public class UniqueCharacters {
     /          string contains all unique, and false if it doesn't.
     */
     public static boolean isUniqueWithDS(String input) {
-
+        HashMap<String, String> myMap = new HashMap<>();
         return true;
     }
 
