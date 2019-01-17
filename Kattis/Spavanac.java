@@ -17,5 +17,6 @@ public class Spavanac {
         }
 
         System.out.println(hour + " " + minute);
+        scan.close();
     }
 }

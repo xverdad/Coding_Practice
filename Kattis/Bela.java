@@ -14,6 +14,7 @@ public class Bela {
         }
 
         System.out.println(score);
+        scan.close();
     }
 
 
