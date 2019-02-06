@@ -14,5 +14,7 @@ public class Pot {
         }
 
         System.out.printf("%.0f", output);
+
+        scan.close();
     }
 }
